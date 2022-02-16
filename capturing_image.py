@@ -2,9 +2,9 @@
 import cv2, sys, numpy, os
 size = 2
 classifier = 'haarcascade_frontalface_default.xml'
-image_dir = 'images'
+image_dir = 'images'#write the name of your directory
 try:
-    name_class = "PRIYANSH" 
+    name_class = "PRIYANSH" # Enter the name of the person for who you want to create a database
 except:
     print("You must provide a name")
     sys.exit(0)
